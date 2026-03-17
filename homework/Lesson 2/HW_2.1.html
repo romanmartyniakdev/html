@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+  >
+  <meta
+    http-equiv="X-UA-Compatible"
+    content="ie=edge"
+  >
+  <title>HW_2.1</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: lightgray;
+        }
+        h1{
+            padding: 50px 0;
+            text-align: center;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            flex-direction: row;
+            gap: 30px;
+            padding: 15px 0;
+            margin-bottom: 20px;
+        }
+        .product-card{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+            text-align: center;
+            width: 300px;
+            height: 300px;
+            border: 1px solid #333333;
+            border-radius: 25px;
+            gap:20px
+        }
+        .product-card p {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .product-card img {
+            width: 80%;
+        }
+        .footer-text{
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+<h1>What do I have in my fridge?</h1>
+<div class="container">
+    <div class="product-card">
+        <img
+          src="https://www.svgrepo.com/show/311772/bell-pepper.svg"
+          alt="Pepper"
+        >
+        <p>Pepper</p>
+    </div>
+    <div class="product-card">
+        <img
+          src="https://uxwing.com/wp-content/themes/uxwing/download/fruits-vegetables/fresh-apple-icon.png"
+          alt="Apple"
+        >
+        <p>Apple</p>
+    </div>
+    <div class="product-card">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/1228/1228402.png"
+          alt="Cheese"
+        >
+        <p>Cheese</p>
+    </div>
+    <div class="product-card">
+        <img
+          src="https://www.svgrepo.com/show/530212/corn.svg"
+          alt="Corn"
+        >
+        <p>Corn</p>
+    </div>
+    <div class="product-card">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Mushroom.svg/1280px-Mushroom.svg.png"
+          alt="Mushroom"
+        >
+        <p>Mushroom</p>
+    </div>
+    <div class="product-card">
+        <img
+          src="https://images.vexels.com/media/users/3/312857/isolated/preview/fe944e02f395e5352c7332f537c5c311-garlic-foraging.png"
+          alt="Garlic"
+        >
+        <p>Garlic</p>
+    </div>
+    <div class="product-card">
+        <img
+          src="https://icons.veryicon.com/png/o/food--drinks/fresh-1/meat-4.png"
+          alt="Beef"
+        >
+        <p>Beef</p>
+    </div>
+    <div class="product-card">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Fish_icon_grey.svg/960px-Fish_icon_grey.svg.png"
+          alt="Fish"
+        >
+        <p>Fish</p>
+    </div>
+    <div class="product-card">
+        <img
+          src="https://images.vexels.com/media/users/3/182785/isolated/preview/a70460dc841816a3f3311219a0649b1b-stroke-bakery-eggs.png"
+          alt="Eggs"
+        >
+        <p>Eggs</p>
+    </div>
+    <div class="product-card">
+        <img
+          src="https://cdn-icons-png.freepik.com/256/9072/9072741.png?semt=ais_white_label"
+          alt="Coriander"
+        >
+        <p>Coriander</p>
+    </div>
+</div>
+<hr>
+<p class="footer-text">... that's all ...</p>
+</body>
+</html>
