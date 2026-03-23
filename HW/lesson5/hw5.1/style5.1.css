@@ -1,0 +1,14 @@
+.container{
+  width: 200px;
+  height: 200px;
+    border-radius: 50%;
+    border-top: 20px solid yellow;
+    border-right: 20px solid orange;
+    border-bottom: 20px solid blue;
+    border-left: 20px solid blueviolet;
+    animation: preloader 4s linear infinite;
+}
+@keyframes preloader {
+    from { transform: rotate(360deg); }
+    to   { transform: rotate(-360deg) scale(1.5) translate(-10px, -10px); }
+}
