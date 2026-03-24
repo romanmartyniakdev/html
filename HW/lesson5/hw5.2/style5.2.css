@@ -1,0 +1,23 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height: 100vh
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: #7C3AED;
+    border-radius: 12px;
+    animation: box 1s ease infinite;
+}
+
+@keyframes box {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.9);
+    }
+}
