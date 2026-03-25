@@ -1,0 +1,24 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.container-1__list li:nth-child(even) {
+  color: pink;
+}
+
+.container-2__list li:nth-child(odd){
+  font-size: 22px;
+}
+
+.container-3__list li:nth-child(2n+4)::after{
+  content: "!";
+}
+
+.container-4__list li:last-child{
+  color:purple;
+}
+
+.container-5__list li:first-letter{
+  color:red;
+}
