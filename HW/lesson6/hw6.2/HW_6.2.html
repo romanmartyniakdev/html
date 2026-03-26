@@ -22,30 +22,45 @@
     <div class="form-header">
       <h2>Вхід в особистий кабінет</h2>
     </div>
+    <form>
 
-    <div class="form-body">
-      <div class="login-container">
-        <label>
-        <input type="email" name="email" id="email" placeholder="Логін або email"/></label>
-      </div>
-      <div class="password-container">
-        <label>
-        <input type="password" name="password" id="password" placeholder="Пароль">
-        </label>
-      </div>
-
-      <div class="wrapper">
-        <div class="checkbox-container">
-          <label for="checkbox">
-            <span>Запам'ятати мене</span>
-            <input type="checkbox" name="remember" id="checkbox">
+      <div class="form-body">
+        <div class="login-container">
+          <label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Введіть email"
+              required
+            />
           </label>
         </div>
-        <div class="button-container">
-          <button type="button">Вхід</button>
+        <div class="password-container">
+          <label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Пароль"
+              required
+            >
+          </label>
+        </div>
+
+        <div class="wrapper">
+          <div class="checkbox-container">
+            <label for="checkbox">
+              <span>Запам'ятати мене</span>
+              <input type="checkbox" name="remember" id="checkbox">
+            </label>
+          </div>
+          <div class="button-container">
+            <button type="submit">Вхід</button>
+          </div>
         </div>
       </div>
-    </div>
+    </form>
   </div>
 </main>
 </body>
