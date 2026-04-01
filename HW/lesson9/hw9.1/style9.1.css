@@ -1,0 +1,20 @@
+*{
+    margin:0;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-rows: 20vh 60vh 20vh;
+}
+
+header {
+    background-color: #D9D9D9;
+}
+
+main {
+    background-color: #A4A4A4;
+}
+
+footer {
+    background-color: #D9D9D9;
+}
